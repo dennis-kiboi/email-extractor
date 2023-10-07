@@ -11,7 +11,7 @@ const extractEmail = (email) => {
   
   const fullName = firstName + " "+ secondName
 
-  console.log(fullName);
+  console.log(`\nYour full name is: ${fullName}\n`);
 }
 
 extractEmail(input);
